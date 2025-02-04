@@ -1,0 +1,264 @@
+/*common css start*/
+
+body{
+	margin: 0;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+/*common css end*/
+
+/*header start*/
+header{
+	padding: 30px 0;
+	/*border: 1px solid;*/
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid;*/
+}
+.logo{
+	margin-top: 9px;
+	float: left;
+	width: 12%;
+	/*border: 1px solid;*/
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 75%;
+	/*border: 1px solid;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	display: inline-block;
+	text-decoration: none;
+	color: #626262 ;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: 0.33s linear;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	/*color: #000000;*/
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+
+/*article start*/
+.article{
+	padding: 100px 0 30px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	/*border: 1px solid;*/
+}
+.a_content{}
+.c_link{
+	display: inline-block;
+	font-family: "Ubuntu", serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 24px;
+}
+.comment{
+	margin-top: 45px;
+}
+/*article end*/
+
+/*blog start*/
+.blog{
+	padding: 0 0 100px;
+}
+.bg_item{
+	margin-top: 70px;
+	box-sizing: border-box;
+	width: 47%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.bg_item:nth-child(even){
+	margin-left: 6%;
+}
+.bg_img{}
+.bg_img img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+/*blog end*/
+
+/*newsletter start*/
+.nletter{
+	margin-bottom: 53px;
+	background-color: #f0f0f0;
+	padding: 55px 0;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 65px;
+}
+.s_form{
+	margin: 0 auto;
+	width: 400px;
+	/*border: 2px solid red;*/
+	position: relative;
+}
+.s_form input{
+	font-family: "Playfair Display", serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 35px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+/*newsletter end*/
+
+/*load start*/
+.container3{
+	text-align: center;
+}
+.container3 button{
+	margin: 120px 0;
+	font-family: "Playfair Display", serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #626262;
+	background: none;
+	border: none;
+	border: 1px solid #626262;
+	cursor: pointer;
+	width: 160px;
+	height: 50px;
+	transition: .33s linear;
+}
+.container3 button:focus{
+	outline: 0;
+}
+.container3 button:hover{
+	background-color: #626262;
+	color: white;
+}
+/*load end*/
+
+/*footer start*/
+footer{
+	padding: 15px 0;
+	display: block;
+	background-color: #f0f0f0;
+	width: 100%;
+}
+.wrapper{
+	overflow: hidden;
+    width: 100%;
+}
+.pages{
+	width: 25%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.pages ul{
+	padding: 0;
+	float: left;
+}
+.pages ul li{
+	margin-left: -18px;
+	list-style: none;
+	float: left;
+}
+.pages ul li:first-child a{
+	float: left;
+}
+.pages ul li a{
+	font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    margin: 2px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.social{
+	width: 25%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.social ul{
+	padding: 0;
+	float: right;
+}
+.social ul li{
+	list-style: none;
+	float: left;
+}
+.social ul li:last-child a{
+	float: right;
+}
+.social ul li a{
+	font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    text-decoration: none;
+    margin: 2px 20px;
+    display: inline-block;
+}
+.social ul li a img{}
+/*footer end*/
